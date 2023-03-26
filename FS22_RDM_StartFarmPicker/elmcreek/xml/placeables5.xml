@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeables version="2">
+    <placeable mapBoundId="farmSilo" filename="data/placeables/meridian/flatBottomBin3608/flatBottomBin3608.xml" position="903.57897949 78.99636078 863.81921387" rotation="-180 -84.83752441 -179.99998474" farmId="1"/>
+</placeables>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="72">
+  
+    <author>Reddog</author>  
+    <version>1.0.0.1</version>
+	
+    <title>
+		<en>Pick Your Starting Farm</en>
+		<de>Startfarm Auswählen</de>
+		<fr>Choisissez Votre Ferme De Départ</fr>
+	</title>
+	<description>
+<en><![CDATA[Pick your starting farm allows players to choose their initial property and starting conditions. Working in conjunction with the economic difficulty setting, map makers can give players multiple choices to begin their farming journey, with individually customised starting farmland, vehicles and starting funds.
+
+This mod is designed for Single Player use only, and will only work with maps that have been set up correctly by the map maker. A profile has been created for Elmcreek to show how the mod works and to give some different starting scenarios for that map.
+
+For further information please read the <a href="https://github.com/Reddog3CB/FS22_StartFarm/blob/main/README.md">README</a> on the Github repository.
+
+Changelog
+v1.0.0.1
+Fixed bug with renting train
+Added vehicle profile to default Elmcreek profile
+Rebalanced starting money on default Elmcreek profile
+
+
+
+]]></en>
+<de><![CDATA[Mit der Funktion "Startfarm auswählen" können die Spieler ihr Startgrundstück und ihre Startbedingungen auswählen. In Verbindung mit der Einstellung für den wirtschaftlichen Schwierigkeitsgrad können die Kartenersteller den Spielern mehrere Möglichkeiten für den Beginn ihrer landwirtschaftlichen Reise bieten, mit individuell angepassten Startgrundstücken, Fahrzeugen und Startkapital.
+
+Diese Mod ist nur für den Einzelspielereinsatz gedacht und funktioniert nur mit Karten, die vom Kartenersteller korrekt eingerichtet wurden. Es wurde ein Profil für Elmcreek erstellt, um zu zeigen, wie der Mod funktioniert und um einige verschiedene Startszenarien für diese Karte zu zeigen.
+
+Für weitere Informationen lesen Sie bitte die <a href="https://github.com/Reddog3CB/FS22_StartFarm/blob/main/README.md">README</a> im Github-Repository.
+]]></de>
+</description>
+
+    <iconFilename>icon_RDM_StartFarmPicker.dds</iconFilename>
+
+
+    <multiplayer supported="false" />
+
+    <extraSourceFiles>
+      <sourceFile filename="lib/LogHelper.lua"/>
+      <sourceFile filename="lib/ModHelper.lua"/>
+      <sourceFile filename="RDM_StartFarm.lua"/>
+    </extraSourceFiles>
+
+	<l10n>
+<text name="labelTitle">
+<en>Pick your starting farm</en>
+<de>Wähle deine Startfarm</de>
+</text>
+<text name="buttonStartText">
+<en>Select Farm</en>
+<de>Farm auswählen</de>
+</text>
+<text name="labelStartMoneyText">
+<en>Starting Money</en>
+<de>Startgeld</de>
+</text>
+<text name="labelYardSizeText">
+<en>Yard Size/Value</en>
+<de>Hof Größe/Wert</de>
+</text>
+<text name="labelFieldSizeText">
+<en>Farmland Size/Value</en>
+<de>Ackerland Größe/Wert</de>
+</text>
+<text name="labelTotalText">
+<en>Total Land Value</en>
+<de>Gesamter Grundstückswert</de>
+</text>
+
+<text name="elmcreek_startfarm_1_header">
+<en>From Scratch</en>
+<de>Von Grund auf neu</de>
+<fr>De zéro</fr>
+</text>
+<text name="elmcreek_startfarm_1_description">
+<en>Start with nothing except some cash to get you going. (Warning - Hard Mode)</en>
+<de>Beginne mit nichts außer etwas Bargeld, um dich in Schwung zu bringen. (Warnung - Schwerer Modus)</de>
+<fr>Commencez avec rien, sauf de l'argent pour vous aider à démarrer. (Avertissement - Mode difficile)</fr>
+</text>
+
+<text name="elmcreek_startfarm_2_header">
+<en>Default Starting Farm</en>
+<de>Standard-Starthof</de>
+<fr>De zéro</fr>
+</text>
+<text name="elmcreek_startfarm_2_description">
+<en>The default starting farm, 3 small fields, and a silo.</en>
+<de>Der Standard-Starthof, 3 kleine Felder und ein Silo.</de>
+<fr>La ferme de départ par défaut, 3 petits champs et un silo.</fr>
+</text>
+
+<text name="elmcreek_startfarm_3_header">
+<en>Mossy Pine Ranch</en>
+<de>Mossy Pine Ranch</de>
+<fr>Mossy Pine Ranch</fr>
+</text>
+<text name="elmcreek_startfarm_3_description">
+<en>Small yard area with some unusable buildings, and three small fields.</en>
+<de>Kleines Hofgelände mit einigen unbrauchbaren Gebäuden und drei kleinen Feldern.</de>
+<fr>Petite cour avec quelques bâtiments inutilisables et trois petits champs.</fr>
+</text>
+
+<text name="elmcreek_startfarm_4_header">
+<en>Riverrock Estate</en>
+<de>Riverrock Estate</de>
+<fr>Riverrock Estate</fr>
+</text>
+<text name="elmcreek_startfarm_4_description">
+<en>Non functioning buildings in the yard, a working silo (requires auger) and six small fields</en>
+<de>Nicht funktionierende Gebäude auf dem Hof, ein funktionierendes Silo (erfordert Förderschnecke) und sechs kleine Felder</de>
+<fr>Bâtiments non fonctionnels dans la cour, un silo en état de marche (nécessite une tarière) et six petits champs</fr>
+</text>
+
+<text name="elmcreek_startfarm_5_header">
+<en>Evergreen Farmstead</en>
+<de>Evergreen Farmstead</de>
+<fr>Evergreen Farmstead</fr>
+</text>
+<text name="elmcreek_startfarm_5_description">
+<en>A functioning silo (requires auger), a usable barn and some non usable buildings in the yard, plus three small fields</en>
+<de>Ein funktionsfähiges Silo (erfordert Förderschnecke), eine benutzbare Scheune und einige nicht benutzbare Gebäude auf dem Hof sowie drei kleine Felder</de>
+<fr>Un silo fonctionnel (nécessite une tarière), une grange utilisable et quelques bâtiments non utilisables dans la cour, plus trois petits champs</fr>
+</text>
+</l10n>
+</modDesc>

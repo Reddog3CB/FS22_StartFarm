@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeables version="2">
+    <placeable mapBoundId="farmStorageSilo" filename="data/placeables/unia/farma/farma400/farma400.xml" position="190 85.375 176" rotation="0 180 0" farmId="1" />
+</placeables>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<RDM_StartFarm>	
+        <farm header="elmcreek_startfarm_1_header" description="elmcreek_startfarm_1_description" image1="img/elmcreek1a.dds" image2="img/elmcreek1b.dds">
+            <items>xml/placeables1.xml</items>
+            <vehicles></vehicles>
+            <money1>1000000</money1>
+            <money2>500000</money2>
+            <money3>200000</money3>
+
+        </farm>
+        <farm header="elmcreek_startfarm_2_header" description="elmcreek_startfarm_2_description" image1="img/elmcreek2a.dds" image2="img/elmcreek2b.dds">
+            <items>xml/placeables2.xml</items>
+            <vehicles></vehicles>
+            <money1>200000</money1>
+            <money2>100000</money2>
+            <money3>5000</money3>
+            <farmlands>
+                <farmland>1</farmland>
+            </farmlands>
+        </farm>
+        <farm header="elmcreek_startfarm_3_header" description="elmcreek_startfarm_3_description" image1="img/elmcreek3a.dds" image2="img/elmcreek3b.dds">
+            <items>xml/placeables3.xml</items>
+            <vehicles></vehicles>
+            <money1>50000</money1>
+            <money2>0</money2>
+			<money3>-50000</money3>
+            <farmlands>
+                <farmland>32</farmland>
+            </farmlands>
+        </farm>
+        <farm header="elmcreek_startfarm_4_header" description="elmcreek_startfarm_4_description" image1="img/elmcreek4a.dds" image2="img/elmcreek4b.dds">
+            <items>xml/placeables4.xml</items>
+            <vehicles></vehicles>
+            <money1>70000</money1>
+            <money2>20000</money2>
+			<money3>0</money3>
+			<farmlands>
+                <farmland>44</farmland>
+                <farmland>40</farmland>
+            </farmlands>
+        </farm>
+		<farm header="elmcreek_startfarm_5_header" description="elmcreek_startfarm_5_description" image1="img/elmcreek5a.dds" image2="img/elmcreek5b.dds">
+            <items>xml/placeables5.xml</items>
+            <vehicles></vehicles>
+            <money1>150000</money1>
+            <money2>35000</money2>
+			<money3>10000</money3>
+            <farmlands>
+                <farmland>50</farmland>
+            </farmlands>
+        </farm>
+
+</RDM_StartFarm>

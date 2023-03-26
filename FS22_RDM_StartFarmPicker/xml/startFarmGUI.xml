@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<GUI onOpen="onOpen" onClose = "onClose">
+	<GuiElement type="dynamicFadedBitmap" profile="uiFullBlurBG"/>
+	<GuiElement type="bitmap" profile="bgVignette"/>
+	<GuiElement type="bitmap" profile="bgGlow"/>
+            <GuiElement type="text" profile="settingsMenuSubtitle" text="$l10n_labelTitle" id="title" position="440px 1000px" textSize="50px"/>
+
+                <GuiElement type="multiTextOption" profile="multiTextOption" id="farm_id" position="440px 900px " onClick="onFarmSelectChange" hasFrame="true" frameThickness="2px 2px 2px 2px">
+                    <GuiElement type="button" profile="multiTextOptionLeft"/>
+                    <GuiElement type="button" profile="multiTextOptionRight"/>
+                    <GuiElement type="text" profile="multiTextOptionText"/>
+                    <GuiElement type="text" profile="multiTextOptionTitle" text="Starting Farm ID"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionBg"/>
+                </GuiElement>			
+				<GuiElement type="text" profile="settingsMenuSubtitle" id="farmHeader" text="Farm Name goes Here" position="440px 800px" size="600px 30px" textVerticalAlignment="top" textSize="40px" />
+				<GuiElement type="text" profile="textDefault" id="details" text="" position="1165px 670px" size="500px 100px">
+					<GuiElement type="text" profile="textDefault" id="moneyLabel" text="$l10n_labelStartMoneyText" position="0px 96px" size="200px 30px" textVerticalAlignment="top" textSize="20px" />
+					<GuiElement type="text" profile="textDefault" id="money" text="123456789" position="201px 96px" size="200px 30px" textVerticalAlignment="top" textSize="20px"/>
+					<GuiElement type="text" profile="textDefault" id="yardLabel" text="$l10n_labelYardSizeText" position="0px 64px" size="200px 30px" textVerticalAlignment="top" textSize="20px" />
+					<GuiElement type="text" profile="textDefault" id="yardSize" text="123456789" position="201px 64px" size="200px 30px" textVerticalAlignment="top" textSize="20px"/>
+					<GuiElement type="text" profile="textDefault" id="farmLabel" text="$l10n_labelFieldSizeText" position="0px 32px" size="200px 30px" textVerticalAlignment="top" textSize="20px" />
+					<GuiElement type="text" profile="textDefault" id="farmSize" text="123456789" position="201px 32px" size="200px 30px" textVerticalAlignment="top" textSize="20px"/>
+					<GuiElement type="text" profile="textDefault" id="totalLabel" text="$l10n_labelTotalText" position="0px 0px" size="200px 30px" textVerticalAlignment="top" textSize="20px" />
+					<GuiElement type="text" profile="textDefault" id="totalSize" text="123456789" position="201px 0px" size="200px 30px" textVerticalAlignment="top" textSize="20px"/>					
+				</GuiElement>	
+				<GuiElement type="text" profile="textDefault" id="description" text="Description goes here blah blah blah" position="440px 695px" size="700px 100px" textVerticalAlignment="top" textMaxNumLines="10" positionOrigin="topLeft" textSize="20px"/>
+				<GuiElement type="text" profile="textDefault" id="pics" text="" position="445px 80px" size="1030px 512px" textVerticalAlignment="top" textSize="30px" hasFrame="true"  frameThickness="2px 2px 2px 2px">
+					<GuiElement type="text" profile="textDefault" id="picLeft" text="" size="512px 512px" textVerticalAlignment="top" textSize="30px">
+						<GuiElement id="pic1" type="bitmap" size="512px 512px" imageUVs="0 0 1 1" imageSize="512 512" />
+					</GuiElement>
+					<GuiElement type="text" profile="textDefault" id="picRight" text="" position="518px 0px" size="512px 512px" textVerticalAlignment="top" textSize="30px">
+						<GuiElement id="pic2" type="bitmap" size="512px 512px" imageUVs="0 0 1 1" imageSize="512 512" />
+					</GuiElement>
+				</GuiElement>
+
+				<GuiElement type="button" profile="buttonOK" text="$l10n_buttonStartText" id="buttonOK" onClick="onSelectFarm" position="900px 20px " />
+</GUI>
